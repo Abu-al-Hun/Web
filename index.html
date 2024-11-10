@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abu Al-Hun - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="https://media.discordapp.net/attachments/1111591958889119865/1275399357763424378/0116b0128432005789e0afd2035efb72b10feea9v2_hq.png?ex=6731dab6&is=67308936&hm=ff40cd2cb1413084e8ef1b6231e8e0b89cc6570aa4e0693933628af567d98c34&=&format=webp&quality=lossless" alt="Profile" class="profile-image">
+        <h1>Abu Al-Hun</h1>
+        <p class="subtitle">Full Stack Developer</p>
+        <div class="social-links">
+          <a href="https://github.com/Abu-Al-Hun" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://github.com/skoda-Studio" target="_blank" title="Second GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.youtube.com/@Skode_Studio" target="_blank" title="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://discord.gg/TX8hXhvFu6" target="_blank" title="Discord Server">
+            <i class="fab fa-discord"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I'm a passionate developer specializing in JavaScript and Python. With a strong foundation in both frontend and backend development, I create efficient and scalable solutions for complex problems.</p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <ul class="skill-list">
+            <li>ES6+</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <ul class="skill-list">
+            <li>Django</li>
+            <li>Flask</li>
+            <li>Data Analysis</li>
+            <li>Automation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-html5"></i> 
+          <h3>HTML</h3>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>SEO</li>
+            <li>Accessibility</li>
+            <li>Forms</li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=400&h=300" alt="Discord System Bot">
+          </div>
+          <div class="project-content">
+            <h3>Discord System Bot</h3>
+            <p>Modern Discord app built with Node.js HTML..</p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>HTML</span>
+            </div>
+            <a href="https://github.com/skoda-Studio/skoda-System-Bot.git" class="btn" target="_blank">View Project</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=400&h=300" alt="Discord Welcome bot">
+          </div>
+          <div class="project-content">
+            <h3>Discord Welcome bot</h3>
+            <p>Discord Member Welcome Program</p>
+            <div class="project-tech">
+              <span>Python</span>
+            </div>
+            <a href="https://github.com/skoda-Studio/Welcome-bot-v.2.0.git" class="btn" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://media.discordapp.net/attachments/1295769257530884119/1295769424061534359/Discord.png?ex=67317910&is=67302790&hm=9860b76e0a65a4a3bd14102cb0c001ee14831c64badaccb2f55d783cad661717&=&format=webp&quality=lossless&width=550&height=309" alt="Discord Welcome bot">
+          </div>
+          <div class="project-content">
+            <h3>Discord Bot Colors</h3>
+            <p>Discord Colors Program Made Using JavaScript</p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+            </div>
+            <a href="https://github.com/skoda-Studio/colors-discord-bot.git" class="btn" target="_blank">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mgveyvbv" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <script>document.write(new Date().getFullYear())</script> Abu Al-Hun. All Rights Reserved</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuToggle.querySelector('i').classList.toggle('fa-bars');
+      menuToggle.querySelector('i').classList.toggle('fa-times');
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          navLinks.classList.remove('active');
+          menuToggle.querySelector('i').classList.add('fa-bars');
+          menuToggle.querySelector('i').classList.remove('fa-times');
+          
+          window.scrollTo({
+            top: target.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
